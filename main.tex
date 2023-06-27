@@ -1,0 +1,68 @@
+%% Environment:
+% Windows 11 Build 22621
+% Editor: VS Code
+% Extension: Latex-workshop
+% Compile recipe: xelatex + bibtex (remove comments and add below to vscode "settings.json")
+% "latex-workshop.latex.recipes": 
+% [
+%     {
+%         "name": "xelatex ➞ bibtex",
+%         "tools": [
+%             "xelatexmk",
+%             "bibtex"
+%         ]
+%     }
+% ]
+% Tex Env: texlive 2022
+
+% hanguangyao*tju.edu.cn replace * to @
+
+\documentclass[12pt,a4paper,twoside]{book}
+
+\input{packages.tex}
+\input{styCtrl.tex}
+
+\begin{document}
+
+\frontmatter        % set numbering from 1, use Roman numbers.
+\input{preface/cover_Ph.D.tex}          % Ph.D cover page
+% \input{preface/cover_pro.D.tex}       % Professional doctor cover page
+% \input{preface/cover_acaMa.tex}       % Master with academic degree cover page
+% \input{preface/cover_proMa.tex}       % Master with professional degree cover page
+\clearpage{\pagestyle{empty}\cleardoublepage}   % make sure the new chapter always starts on the right page.
+
+\input{preface/noveltyDeclar.tex}  % Novelty declaration and Authorship
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\input{preface/abstract_cn.tex}         % Chinese abstract page
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\input{preface/abstract_en.tex}         % English abstract page
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+%% Contents
+\tableofcontents
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+% start of first chapter
+\mainmatter         % set numbering from 1, use arabic numbers.
+\pagestyle{fancy}   % set following page with headers and footers
+\initfont           % initialize font settings
+\include{chapters/chpt1.tex}
+\clearpage{\cleardoublepage}
+
+% add more chapters when needed
+\include{chapters/chpt2.tex}
+\clearpage{\cleardoublepage}
+
+% add references
+\addcontentsline{toc}{chapter}{参考文献}
+\bibliography{references.bib}
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\input{postface/achievements.tex}  % Achievements
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\input{postface/acknowlegement.tex}  % Acknowledgement
+\clearpage{\pagestyle{empty}\cleardoublepage}
+\end{document}
