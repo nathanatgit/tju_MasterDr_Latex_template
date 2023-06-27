@@ -96,7 +96,9 @@
 \newcommand{\tabfont}{\fontsize{10.5}{20}\selectfont}     % default table style 五号，固定行距20pt
 \captionsetup{labelsep=space}   % remove the default colon between numbering and texts, remove this line and the caption will become 表1-1: 表标题 or 图1-1: 图表题
 \captionsetup{font=singlespacing,labelsep=space}% caption seperator: space. E.g 表1-1 表标题 or 图1-1 图表题
-\renewcommand{\captionfont}{\fontsize{10.5pt}{20pt}\selectfont} % 图、表内容为五号字，中文字体为宋体，英文字体为Times New Roman。
+\captionsetup[subfloat]{labelformat=simple}
+\renewcommand{\captionfont}{\fontsize{12pt}{20pt}\selectfont}
+% 图和表的标题规定中并未说明具体标题文字要求和字号要求，只规定了内容字体，那标题就认为是正文格式叭。
 % 图序及图题居中置于图的下方，表序及表题居中置于表的上方。
 \captionsetup[table]{position=top,skip=0pt}
 \captionsetup[figure]{position=bottom,skip=0pt,belowskip=-10.5pt}
