@@ -1,22 +1,24 @@
 % create cover page
 \begin{titlepage}
     \centering
-    \thispagestyle{empty} 
-    \erhao \textbf{文章的标题第一行\\第二行}  % remove \\ if no line break needed
+    \thispagestyle{empty}
+    \erhao \heiti \textbf{文章的标题第一行\\第二行}  % remove \\ if no line break needed
 
     \Large \textbf{\\ Research on Integrated Communication and Detection Technology} % the \\ is to skip between Chinese title and english title
-
+    % 要求是14~22 pt，加粗，Times New Roman，可以选\sihao 至 \erhao 之间任意
     \vfill
 
     \begin{table}[!b]
         \centering
         \fontsize{12pt}{20pt}\selectfont
+        \songti
+        \newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}} % 如过想要第二列居中显示，下面这行把rm{0.3\textwidth改成r C{0.3\textwidth}
         \begin{tabular}{rm{0.3\textwidth}}
-            \textbf{一级学科：} & 学科的名字 \\ \cline{2-2}
-            \textbf{研究方向（领域）：} & 研究的方向 \\ \cline{2-2}
-            \textbf{作者姓名：} & 作者的名字 \\ \cline{2-2}
-            \textbf{导师姓名：} & 导师的名字 \\ \cline{2-2}
-            \textbf{企业教师：} & 导师的名字 \\ \cline{2-2}
+            \textbf{一级学科：}         & \textbf{学科的名字} \\ \cline{2-2}
+            \textbf{研究方向（领域）：} & \textbf{研究的方向} \\ \cline{2-2}
+            \textbf{作者姓名：}         & \textbf{作者的名字} \\ \cline{2-2}
+            \textbf{导师姓名：}         & \textbf{导师的名字} \\ \cline{2-2}
+            \textbf{企业教师：}         & \textbf{导师的名字} \\ \cline{2-2}
             \multicolumn{2}{c}{}
             \label{tab:Names}
         \end{tabular}
@@ -25,21 +27,22 @@
     \begin{table}[!b]
         \centering
         \fontsize{12pt}{20pt}\selectfont
-        \begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|X|}
+        \songti
+        \begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|}
             \hline
-            \textbf{答辩日期}              & \multicolumn{3}{c|}{2023 年 MM 月 DD 日 }                                                                 \\
+            \textbf{答辩日期}              & \multicolumn{3}{c|}{2023 年 MM 月 DD 日 }                                       \\
             \hline
-            \textbf{答辩委员会}            & \textbf{姓名}                            & \textbf{职称} & \multicolumn{1}{>{\centering\arraybackslash}X|}{\textbf{工作单位}} \\
+            \textbf{答辩委员会}            & \textbf{姓名}                             & \textbf{职称} & {\textbf{工作单位}} \\
             \hline
-            \textbf{主席}                  &                                          &               &                                               \\
+            \textbf{主席}                  &                                           &               &                     \\
             \hline
-            \multirow{4}{*}{\textbf{委员}} &                                          &               &                                               \\ \cline{2-4}
-                                           &                                          &               &                                               \\ \cline{2-4}
-                                           &                                          &               &                                               \\ \cline{2-4}
-                                           &                                          &               &                                               \\
+            \multirow{4}{*}{\textbf{委员}} &                                           &               &                     \\ \cline{2-4}
+                                           &                                           &               &                     \\ \cline{2-4}
+                                           &                                           &               &                     \\ \cline{2-4}
+                                           &                                           &               &                     \\
             \hline
-            \multicolumn{4}{c}{}                                                                                                                      \\
-            \multicolumn{4}{c}{天津大学XXXXX学院}                                                                                   \\
+            \multicolumn{4}{c}{}                                                                                             \\
+            \multicolumn{4}{c}{天津大学XXXXX学院}                                                                            \\
             \multicolumn{4}{c}{二〇二三年四月}
         \end{tabularx}
         \label{tab:Affils}
