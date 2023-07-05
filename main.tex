@@ -2,7 +2,8 @@
 % Windows 11 Build 22621
 % Editor: VS Code
 % Extension: Latex-workshop
-% Compile recipe: xelatex + bibtex (remove comments and add below to vscode "settings.json")
+% Compile recipe: xelatex + bibtex
+% (remove comments and add below to vscode "settings.json")
 % "latex-workshop.latex.recipes": 
 % [
 %     {
@@ -12,12 +13,23 @@
 %             "bibtex"
 %         ]
 %     }
-% ]
+% ],
+% Compile recipe 2: xelatex + biber + xelatex * 2
+% "latex-workshop.latex.recipes": 
+% {
+%     "name": "xelatex ➞ biber ➞ xelatex * 2",
+%     "tools": [
+%         "xelatexmk",
+%         "biber",
+%         "xelatexmk",
+%         "xelatexmk"
+%     ]
+% },
 % Tex Env: texlive 2022
 
 % hanguangyao*tju.edu.cn replace * to @
 
-\documentclass[12pt,a4paper,twoside]{book}
+\documentclass[12pt,a4paper,oneside]{book}
 
 \input{packages.tex}
 \input{styCtrl.tex}
