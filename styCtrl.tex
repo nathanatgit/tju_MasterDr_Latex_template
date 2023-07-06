@@ -69,14 +69,14 @@
 \fancyhf{}%
 \fancyhead[CO]{\songti \wuhao \leftmark}    % the CO means centering the odd pages' header
 \fancyhead[CE]{\songti \wuhao 天津大学博士学位论文} % the CE centering the even pages' header
-\fancyfoot[C]{\songti \xiaowu ~\thepage~}   % the C means centering the footer
+\fancyfoot[C]{\songti \xiaowu \thepage}   % the C means centering the footer
 \renewcommand{\headrulewidth}{0.5pt}        % the width of the header line
 \renewcommand{\footrulewidth}{0pt}          % the width of the footer line
 \setlength{\footskip}{20pt}                 % the distance between the bottom of the page and the footer
 
 \fancypagestyle{plain}{%        % plain is to show the footer only
     \fancyhf{}                  % clear all header and footer fields
-    \fancyfoot[C]{\songti \xiaowu ~\thepage~ }  % show the page number in the center of footer
+    \fancyfoot[C]{\songti \xiaowu \thepage}  % show the page number in the center of footer
     \renewcommand{\headrulewidth}{0pt}          % clear the header line
     \renewcommand{\footrulewidth}{0pt}          % clear the footer line
 }
