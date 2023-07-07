@@ -32,7 +32,7 @@ Tianjin University thesis latex template for personal use. Based on 2021 revised
 
 ### 关于页边距：
 
-按文档要求，硕博论文规定固定左右页边距，在双面打印的时候是一件很迷的事情，保持尊重吧就。
+按文档要求，硕博论文规定固定左右不对等页边距，在双面打印的时候是一件很迷的事情，保持尊重吧就。
 
 建议上交电子版用固定页边距的版本，打印的时候生成一版奇偶页页边距互换的pdf（修改`packages.tex`内注释掉的geometry设置，`offbinding=8mm`的版本）。
 
