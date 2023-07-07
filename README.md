@@ -21,13 +21,25 @@ Tianjin University thesis latex template for personal use. Based on 2021 revised
 
 ### 参考文献格式：
 
-GBT7714-2005，参考文档原文中"根据GB/T 7714-2005的要求书写参考文献，可采用顺序编码制，也可采用著者-出版年制，但全文必须统一"的要求。
+参考文档原文中"根据GB/T 7714-2005的要求书写参考文献，可采用顺序编码制，也可采用著者-出版年制，但全文必须统一"的要求。
+
+本文档默认顺序编码制，如果需要采用著者-出版年制，可以在
+```
+\usepackage{gbt7714}        % Chinese GBT 7714 style reference list
+\bibliographystyle{gbt7714-numerical}
+```
+修改为将`gbt7714-numerical`改为`gbt7714-author-year`，也可指定2005版本比如`gbt7714-2005-numerical`或`gbt7714-2005-author-year`。
 
 ### 关于页边距：
 
-按文档要求，硕博论文规定固定左右页边距，在双面打印的时候是一件很迷的事情，保持尊重吧就。
+按文档要求，硕博论文规定固定左右不对等页边距，在双面打印的时候是一件很迷的事情，保持尊重吧就。
 
 建议上交电子版用固定页边距的版本，打印的时候生成一版奇偶页页边距互换的pdf（修改`packages.tex`内注释掉的geometry设置，`offbinding=8mm`的版本）。
+
+```
+% \usepackage[top= 27.5mm,bottom=25.4mm,left=27.7mm,right=27.7mm,head=15mm,foot=17.5mm,bindingoffset=8mm]{geometry}  % 左右页边距奇偶页互换版本
+\usepackage[a4paper,asymmetric,top= 27.5mm,bottom=25.4mm,left=35.7mm,right=27.7mm,head=15mm,foot=17.5mm,bindingoffset=0mm]{geometry}  % 页边距固定版本
+```
 
 ### 关于页眉页脚
 
