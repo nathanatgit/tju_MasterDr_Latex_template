@@ -3,4 +3,4 @@ commandplaygroud.tex
 commandplaygroud.pdf
 commandplaygroud.synctex.gz
 *.aux
-
+*.log

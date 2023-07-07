@@ -69,7 +69,13 @@
 
 % add references
 \addcontentsline{toc}{chapter}{参考文献}
-\bibliography{references.bib}
+\thispagestyle{fancy}
+
+\bibliography{references.bib}   % use with \usepackage{gbt7714}
+
+% \printbibliography[heading=bibliography,title=参考文献]
+% % advanced bibliography styles, use with \usepackage[backend=biber,citestyle=gb7714-2005,bibstyle=gb7714-2005]{biblatex}
+
 \clearpage{\pagestyle{empty}\cleardoublepage}
 
 \input{postface/achievements.tex}  % Achievements
