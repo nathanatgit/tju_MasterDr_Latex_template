@@ -4,6 +4,10 @@ Tianjin University thesis latex template for personal use. Based on 2021 revised
 
 基于硕博学位模板，基于2021年硕博论文统一规定。
 
+使用前请自行搜索安装texlive，如果使用`vscode`作为编辑器，Clone本仓库后打开文件夹工作区即用，编译链已经集成至`.vscode`文件夹内。
+![image](https://github.com/nathanatgit/tju_MasterDr_Latex_template/assets/20399271/b246a822-fb78-4ff8-8aee-13fd3a5b5a88)
+
+
 ## 环境：
 * Windows
 * VSCode
@@ -61,9 +65,14 @@ Tianjin University thesis latex template for personal use. Based on 2021 revised
 
 ### 独创性声明：
 
-参考统一要求文档的附录，天津大学四个字是`楷体GB_2312`，所以没有这个字体的话就会被被替换成了``微软雅黑``显示。
+参考统一要求文档的附录，天津大学四个字是`楷体GB_2312`，所以没有这个字体的话就会被被替换成了``微软雅黑``显示，如下图。
 
-鉴于现在是2023年，楷体_GB2312字库可能只会在Windows XP的电脑上默认出现，并且GB2312标准早已被GB18030-2005所替代，如果不是手动下载安装根本不会用到这个远古字库（GB2312和GB18030不存在字形区别，仅仅是字库扩充），所以模板中改为``楷体``。
+![image](https://github.com/nathanatgit/tju_MasterDr_Latex_template/assets/20399271/7da58e83-c328-4ed4-8b40-b3a470e2b256)
+
+鉴于现在是2023年，楷体_GB2312字库可能只会在Windows XP的电脑上默认出现，并且GB2312标准早已被GB18030-2005所替代，如果不是手动下载安装根本不会用到这个远古字库（GB2312和GB18030不存在字形区别，仅仅是字库扩充），所以本模板中改为``楷体``（如图）。
+
+![image](https://github.com/nathanatgit/tju_MasterDr_Latex_template/assets/20399271/7f4d7a62-9a99-402f-b868-48a3f877e3db)
+
 
 ### 封面：
 
