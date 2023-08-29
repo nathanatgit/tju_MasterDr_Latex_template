@@ -52,9 +52,11 @@ Tianjin University thesis latex template for personal use. Based on 2021 revised
 
 ### 参考文献格式：
 
-《统一规定》的文档中要求"**根据GB/T 7714-2005的要求书写参考文献，可采用顺序编码制，也可采用著者-出版年制，但全文必须统一**"。
+《统一规定》的文档中要求：
 
-本文档默认顺序编码制，如果需要采用著者-出版年制，可以在
+**根据GB/T 7714-2005的要求书写参考文献，可采用顺序编码制，也可采用著者-出版年制，但全文必须统一**。
+
+本文档默认**顺序编码制**，如果需要采用著者-出版年制，可以在
 ```
 \usepackage{gbt7714}        % Chinese GBT 7714 style reference list
 \bibliographystyle{gbt7714-numerical}
@@ -113,7 +115,7 @@ xelatex 支持的图片格式：https://tex.stackexchange.com/questions/1072/whi
 
 ### 独创性声明：
 
-参考统一要求文档的附录，天津大学四个字是`楷体GB_2312`，所以没有这个字体的话就会被被替换成了``微软雅黑``显示（如下图）。
+参考统一要求文档的附录，“天津大学”四个字是`楷体GB_2312`，所以没有这个字体的话就会被被替换成了``微软雅黑``显示（如下图）。
 
 ![image](https://github.com/nathanatgit/tju_MasterDr_Latex_template/assets/20399271/7da58e83-c328-4ed4-8b40-b3a470e2b256)
 
