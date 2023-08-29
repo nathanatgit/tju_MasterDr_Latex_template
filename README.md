@@ -52,7 +52,7 @@ Tianjin University thesis latex template for personal use. Based on 2021 revised
 
 ## 一些问题
 
-### 参考文献格式：
+### 关于参考文献格式：
 
 《统一规定》的文档中要求为，**根据GB/T 7714-2005的要求书写参考文献，可采用顺序编码制，也可采用著者-出版年制，但全文必须统一**。
 
