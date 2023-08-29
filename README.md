@@ -18,8 +18,9 @@ Tianjin University thesis latex template for personal use. Based on 2021 revised
 * texlive 2022
 
 ## 编译工具：
-`xelatex + bibtex`或 `xelatex + biber + xelatex * 2`（视参考文献及参考文献风格的使用方式而定，一般前者可满足，如果对参考文献风格和引擎做了调整，编译不成功试试第二种）
-已经将编译工具链集成至 vscode 工作区设定，保存在`.vscode/settings.json`中。
+* `xelatex + bibtex`或 `xelatex + biber + xelatex * 2`（视参考文献及参考文献风格的使用方式而定，一般前者可满足，如果对参考文献风格和引擎做了调整，编译不成功试试第二种）
+
+* 已经将编译工具链集成至 vscode 工作区设定，保存在`.vscode/settings.json`中。
 
 **改完设置完一定记得编译的时候选对候选编译工具**
 
