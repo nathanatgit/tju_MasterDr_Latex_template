@@ -54,9 +54,7 @@ Tianjin University thesis latex template for personal use. Based on 2021 revised
 
 ### 参考文献格式：
 
-《统一规定》的文档中要求：
-
-**根据GB/T 7714-2005的要求书写参考文献，可采用顺序编码制，也可采用著者-出版年制，但全文必须统一**。
+《统一规定》的文档中要求**根据GB/T 7714-2005的要求书写参考文献，可采用顺序编码制，也可采用著者-出版年制，但全文必须统一**。
 
 本文档默认**顺序编码制**，如果需要采用著者-出版年制，可以在
 ```
@@ -70,8 +68,10 @@ B.T.W. `GB/T7714`标准文档给出的示例的西文 authors 名字全部是大
 
 ![image](https://github.com/nathanatgit/tju_MasterDr_Latex_template/assets/20399271/8720a497-13af-4027-bff3-8ba31bfce867)
 
+
+**参考文献格式修改扩展资料：**
+
 ```
-扩展资料：
 https://github.com/hushidong/biblatex-gb7714-2015
 https://github.com/zepinglee/gbt7714-bibtex-style
 ```
@@ -108,12 +108,10 @@ https://github.com/zepinglee/gbt7714-bibtex-style
 
 本模板按照正文格式处理（宋体小四 20 磅行距）。表格内容文字规定了五号字，设置了`\tabfont`命令方便初始化（参考文档中的示例）。
 
-**扩展资料**：
+**图片格式及排版扩展资料**：
 
 ```
-xelatex 支持的图片格式
 https://tex.stackexchange.com/questions/1072/which-graphics-formats-can-be-included-in-documents-processed-by-latex-or-pdflat
-figure 环境的的常见排版
 https://www.overleaf.com/learn/latex/Inserting_Images
 ```
 
