@@ -110,8 +110,10 @@ https://github.com/zepinglee/gbt7714-bibtex-style
 **扩展资料**：
 
 ```
-xelatex 支持的图片格式：https://tex.stackexchange.com/questions/1072/which-graphics-formats-can-be-included-in-documents-processed-by-latex-or-pdflat
-图片的常用设置：https://www.overleaf.com/learn/latex/Inserting_Images
+xelatex 支持的图片格式
+https://tex.stackexchange.com/questions/1072/which-graphics-formats-can-be-included-in-documents-processed-by-latex-or-pdflat
+figure 环境的的常见排版
+https://www.overleaf.com/learn/latex/Inserting_Images
 ```
 
 ### 独创性声明：
