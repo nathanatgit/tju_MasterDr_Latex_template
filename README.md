@@ -23,7 +23,7 @@ Tianjin University thesis latex template for personal use. Based on 2021 revised
 **改完设置完一定记得编译的时候选对候选编译工具**
 
 ## 文档列表
-```
+
 📑main.tex  ................. 主文档
  ├─ 📃 packages.tex ......... 文档中使用的包文件
  ├─ 📃 styCtrl.tex .......... 风格化设定，包括章节、图、表、公式、页眉、页脚等的风格定义
@@ -43,7 +43,6 @@ Tianjin University thesis latex template for personal use. Based on 2021 revised
   ├─  📃 achievements.tex ... 发表论文和参加科研情况说明
   └─  📃 acknowlegement.tex . 致谢
  └─ 📃 references.bib ....... 参考文献的bibtex文档
-```
 
 --------------
 
