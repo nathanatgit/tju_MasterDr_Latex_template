@@ -27,7 +27,7 @@ Tianjin University thesis latex template for personal use. Based on 2021 revised
 
 ### 参考文献格式：
 
-参考文档原文中"根据GB/T 7714-2005的要求书写参考文献，可采用顺序编码制，也可采用著者-出版年制，但全文必须统一"的要求。
+《统一规定》的文档原文中要求"**根据GB/T 7714-2005的要求书写参考文献，可采用顺序编码制，也可采用著者-出版年制，但全文必须统一**"。
 
 本文档默认顺序编码制，如果需要采用著者-出版年制，可以在
 ```
@@ -40,6 +40,13 @@ Tianjin University thesis latex template for personal use. Based on 2021 revised
 B.T.W. `GB/T7714`标准文档给出的示例的西文Author名字全部是大写（如图），但是CNKI等网站输出的是正常大小写，此区别不影响图书馆上传（个人经历），如介意大写问题建议自行Google修改。
 
 ![image](https://github.com/nathanatgit/tju_MasterDr_Latex_template/assets/20399271/8720a497-13af-4027-bff3-8ba31bfce867)
+
+```
+扩展资料：
+https://github.com/hushidong/biblatex-gb7714-2015
+https://github.com/zepinglee/gbt7714-bibtex-style
+```
+
 
 ### 关于页边距：
 
