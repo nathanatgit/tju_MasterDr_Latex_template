@@ -35,11 +35,11 @@ Tianjin University thesis latex template for personal use. Based on 2021 revised
 \bibliographystyle{gbt7714-numerical}
 ```
 修改为将`gbt7714-numerical`改为`gbt7714-author-year`，也可指定2005版本比如`gbt7714-2005-numerical`或`gbt7714-2005-author-year`。
-如果发现输出文献格式不符合要求，或者与Google Schoolar/CNKI输出的格式不同，建议仔细检查bibtex中的有问题条目。
+如果发现输出文献格式不符合要求，或者与Google Schoolar/CNKI输出的格式不同，建议仔细检查`references.bib`中的有问题条目，是否信息完整。
 
-B.T.W. GB/T7714标准文档给出的示例的西文Author名字全部是大写，但是CNKI等网站输出的是正常大小写，不影响图书馆上传(个人经历)，如介意建议自行Google修改。
+B.T.W. `GB/T7714`标准文档给出的示例的西文Author名字全部是大写（如图），但是CNKI等网站输出的是正常大小写，不影响图书馆上传（个人经历），如介意大写问题建议自行Google修改。
+
 ![image](https://github.com/nathanatgit/tju_MasterDr_Latex_template/assets/20399271/8720a497-13af-4027-bff3-8ba31bfce867)
-
 
 ### 关于页边距：
 
@@ -72,11 +72,11 @@ B.T.W. GB/T7714标准文档给出的示例的西文Author名字全部是大写�
 
 ### 独创性声明：
 
-参考统一要求文档的附录，天津大学四个字是`楷体GB_2312`，所以没有这个字体的话就会被被替换成了``微软雅黑``显示，如下图。
+参考统一要求文档的附录，天津大学四个字是`楷体GB_2312`，所以没有这个字体的话就会被被替换成了``微软雅黑``显示（如下图）。
 
 ![image](https://github.com/nathanatgit/tju_MasterDr_Latex_template/assets/20399271/7da58e83-c328-4ed4-8b40-b3a470e2b256)
 
-鉴于现在是2023年，楷体_GB2312字库可能只会在Windows XP的电脑上默认出现，并且GB2312标准早已被GB18030-2005所替代，如果不是手动下载安装根本不会用到这个远古字库（GB2312和GB18030不存在字形区别，仅仅是字库扩充），所以本模板中改为``楷体``（如图）。
+鉴于现在是2023年，`楷体_GB2312`字库可能只会在Windows XP的电脑上默认出现，并且`GB2312`标准早已被`GB18030-2005`所替代，如果不是手动下载安装根本不会用到这个远古字库（`GB2312`和`GB18030`不存在字形区别，仅仅是字库扩充），所以本模板中改为``楷体``（如图）。
 
 ![image](https://github.com/nathanatgit/tju_MasterDr_Latex_template/assets/20399271/7f4d7a62-9a99-402f-b868-48a3f877e3db)
 
