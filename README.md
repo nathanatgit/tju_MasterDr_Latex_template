@@ -14,7 +14,7 @@ Tianjin University thesis latex template for personal use. Based on 2021 revised
 ## 环境：
 * Windows
 * VSCode
-* VSCode 扩展 - Latex Workshop Extension
+* VSCode 扩展 - Latex Workshop
 * texlive 2022
 
 ## 编译工具：
