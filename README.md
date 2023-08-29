@@ -2,7 +2,7 @@
 
 Tianjin University thesis latex template for personal use. Based on 2021 revised version.
 
-基于硕博学位模板，基于2021年硕博论文统一规定。
+基于硕博学位模板，基于《天津大学关于博士、硕士学位论文统一规定（2021年修订）》。
 
 使用前请**自行搜索安装texlive**
 
@@ -27,7 +27,7 @@ Tianjin University thesis latex template for personal use. Based on 2021 revised
 
 ### 参考文献格式：
 
-《统一规定》的文档原文中要求"**根据GB/T 7714-2005的要求书写参考文献，可采用顺序编码制，也可采用著者-出版年制，但全文必须统一**"。
+《统一规定》的文档中要求"**根据GB/T 7714-2005的要求书写参考文献，可采用顺序编码制，也可采用著者-出版年制，但全文必须统一**"。
 
 本文档默认顺序编码制，如果需要采用著者-出版年制，可以在
 ```
