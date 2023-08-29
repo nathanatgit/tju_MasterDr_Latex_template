@@ -121,14 +121,14 @@ https://www.overleaf.com/learn/latex/Inserting_Images
 
 ![image](https://github.com/nathanatgit/tju_MasterDr_Latex_template/assets/20399271/7da58e83-c328-4ed4-8b40-b3a470e2b256)
 
-鉴于现在是2023年，`楷体_GB2312`字库可能只会在Windows XP的电脑上默认出现，并且`GB2312`标准早已被`GB18030-2005`所替代，如果不是手动下载安装根本不会用到这个远古字库（`GB2312`和`GB18030`不存在字形区别，仅仅是字库扩充），所以本模板中改为``楷体``（如图）。
+鉴于现在是 2023 年，`楷体_GB2312`字库可能只会在 Windows XP 的电脑上默认出现，并且`GB2312`标准早已被`GB18030-2005`所替代，如果不是手动下载安装根本不会用到这个远古字库（`GB2312`和`GB18030`不存在字形区别，仅仅是字库扩充），所以本模板中改为``楷体``（如图）。
 
 ![image](https://github.com/nathanatgit/tju_MasterDr_Latex_template/assets/20399271/7f4d7a62-9a99-402f-b868-48a3f877e3db)
 
 
 ### 封面：
 
-模板中的封面有4种，依照统一要求的文档附录，放在了`cover_Ph_D.tex（学术博士）`、`cover_pro_D.tex（专业博士）`、`cover_acaMa.tex（学术硕士）`和`cover_proMa.tex（专业硕士）`中，请对应修改`main.tex`中相应注释
+模板中的封面有 4 种，依照统一要求的文档附录，放在了`cover_Ph_D.tex（学术博士）`、`cover_pro_D.tex（专业博士）`、`cover_acaMa.tex（学术硕士）`和`cover_proMa.tex（专业硕士）`中，请对应修改`main.tex`中相应注释
 ```
 \input{preface/cover_Ph.D.tex}          % Ph.D cover page
 % \input{preface/cover_pro.D.tex}       % Professional doctor cover page
