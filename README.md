@@ -6,7 +6,8 @@ Tianjin University thesis latex template for personal use. Based on 2021 revised
 
 使用前请**自行搜索安装 texlive**
 
-如果使用`vscode`作为编辑器，Clone本仓库后打开文件夹工作区即用，编译链已经集成至`.vscode`文件夹内。
+如果使用`vscode`作为编辑器，克隆本仓库后打开文件夹工作区即用，编译链已经集成至`.vscode`文件夹内。
+
 ![image](https://github.com/nathanatgit/tju_MasterDr_Latex_template/assets/20399271/b246a822-fb78-4ff8-8aee-13fd3a5b5a88)
 
 
