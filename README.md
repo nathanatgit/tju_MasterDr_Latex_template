@@ -37,7 +37,7 @@ Tianjin University thesis latex template for personal use. Based on 2021 revised
 修改为将`gbt7714-numerical`改为`gbt7714-author-year`，也可指定2005版本比如`gbt7714-2005-numerical`或`gbt7714-2005-author-year`。
 如果发现输出文献格式不符合要求，或者与Google Scholar/CNKI输出的格式不同，建议仔细检查`references.bib`中的有问题条目，是否信息完整。
 
-B.T.W. `GB/T7714`标准文档给出的示例的西文Author名字全部是大写（如图），但是CNKI等网站输出的是正常大小写，不影响图书馆上传（个人经历），如介意大写问题建议自行Google修改。
+B.T.W. `GB/T7714`标准文档给出的示例的西文Author名字全部是大写（如图），但是CNKI等网站输出的是正常大小写，此区别不影响图书馆上传（个人经历），如介意大写问题建议自行Google修改。
 
 ![image](https://github.com/nathanatgit/tju_MasterDr_Latex_template/assets/20399271/8720a497-13af-4027-bff3-8ba31bfce867)
 
