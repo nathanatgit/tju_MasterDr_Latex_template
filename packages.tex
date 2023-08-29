@@ -8,14 +8,14 @@
 \usepackage{multirow}       % table multi column and rows support
 \usepackage{tabularx}       % advanced table environment
 \usepackage{booktabs}       % table out line enhancement
-\usepackage{emptypage}      % remove page numbers in blank page
+\usepackage{emptypage}      % remove page numbers in the blank page
 % \usepackage{showframe}    % for detecting margins
 
 % 位论文一律采用ISO 216标准规定的A4纸张（大小为210×297mm）。页边距为：上：27.5mm；下25.4mm；左：35.7mm；右：27.7mm。页眉距边界15.0mm；页脚距边界17.5mm。
 % \usepackage[top= 27.5mm,bottom=25.4mm,left=27.7mm,right=27.7mm,head=15mm,foot=17.5mm,bindingoffset=8mm]{geometry}
 \usepackage[a4paper,asymmetric,top= 27.5mm,bottom=25.4mm,left=35.7mm,right=27.7mm,head=15mm,foot=17.5mm,bindingoffset=0mm]{geometry}
-% explains: the documentclass use twoside for maintaining margins on even/odd pages, while in consequence, the geometry package would swap left and odd pages.
-% This is contradictory to the requirement of the thesis template (while not to my agreement. Obviously you need to switch odd and even pages margin for printing, but the template requires a fixed margin).
+% explains: the documentclass uses twoside to maintain margins on even/odd pages, while the geometry package would swap left and odd pages.
+% This contradicts the requirement of the thesis template (while not to my agreement. Obviously you need to switch odd and even page margins for printing, but the template requires a fixed margin).
 % Anyway, to keep the same margin in both odd and even pages, use asymmetric option and set bindingoffset=0mm
 
 % 正文中文字体为宋体，英文字体为Times New Roman，正文采用小四号字，段落行间距为固定值20磅，段落前后间距为0，首行缩进2字符。
@@ -36,13 +36,13 @@
 
 % \usepackage[backend=biber,citestyle=gb7714-2005,bibstyle=gb7714-2005]{biblatex}
 % \addbibresource[location=local]{references.bib}   %biblatex宏包的参考文献数据源加载方式
-% more flexible method for controlling reference styles, for advanced users.
+% more flexible method for controlling reference styles for advanced users.
 
 \usepackage{subfig}
 \usepackage{caption}
 \usepackage{array}
 
-% % for customizing the cross ref caption style
+% % for customizing the cross-ref caption style
 % \usepackage{cleveref}
 % \crefname{figure}{图}{图}
 % \crefname{table}{表}{表}
